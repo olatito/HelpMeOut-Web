@@ -1,9 +1,5 @@
-
-import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
-// import { FaFacebook ,BiEditAlt} from 'react-icons/fa'
-// import videCard from '../Components/VideoCard'
 
 
 
@@ -13,11 +9,7 @@ const Recording = () => {
          <div className=' w-[90%] lg:w-[80%] mx-auto py-10'>
         </div>
          <Header />
-         
-         {/* <div className='w-full bg-[#e7e7ed] bg-opacity-20 py-10 mb-10'> */}
-
-         
-         
+ 
         <div className='max-w-[90%] lg:max-w-[500px] mx-auto text-center flex flex-col items-center gap-8'>
           <h5 className='text-[#141414] font-bold font-sora lg:text-xl'>
             To ensure the availability and privacy of your video, we recommend
@@ -28,9 +20,7 @@ const Recording = () => {
           </button>
           <p className='font-bold text-[#7e7e7e]'>
             Don’t have an account?{' '}
-            {/* <Link to='/auth' className='text-primary underline'> */}
               Create account{' '}
-            {/* </Link> */}
           </p>
         </div>
          
